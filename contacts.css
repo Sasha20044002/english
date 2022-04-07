@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightseagreen;
+}
+
+.nav {
+  width: 70%;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  font-size: 14pt;
+}
